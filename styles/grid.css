@@ -1,0 +1,56 @@
+.some-page-wrapper {
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex:1 ;
+    padding: 3px;
+    
+  }
+
+  .img-column {
+    height: 100%;
+    width: 100%;
+  }
+.img {
+    border-radius: 25px 0px 0px 25px;
+    height: 150px;
+    width:200px
+}
+  .text-column {
+    border-radius:  0px 25px 25px 25px;
+    height: 300px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(195, 247, 247);
+    position: relative;
+  }
+
+  button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 2;
+    background-color: rgb(61, 65, 65);
+    color: rgb(206, 201, 201);
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(235, 179, 25);
+    color: black; 
+}
