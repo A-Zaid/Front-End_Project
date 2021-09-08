@@ -1,5 +1,6 @@
 .some-page-wrapper {
     margin: 15px;
+    font-family: 'Lobster Two', cursive;
   }
   
   .row {
@@ -53,4 +54,9 @@
 button:hover {
     background-color: rgb(235, 179, 25);
     color: black; 
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 5px;
 }
